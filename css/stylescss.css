@@ -70,7 +70,7 @@ body {
   background: #dbd3ad; }
   .maNav .navbar-nav a.nav-link {
     text-transform: uppercase;
-    color: #c2714f;
+    color: black;
     font-weight: 600; }
     .maNav .navbar-nav a.nav-link:hover {
       color: #e0607e; }
@@ -156,12 +156,12 @@ footer .container{
 }
 footer {
   background: #dbd3ad;
-  color: #c2714f; }
+  color: black; }
   footer h2 {
     font-size: 1.5rem; }
   footer .footerLinks a {
     display: block;
-    color: #c2714f; 
+    color: black; 
     margin-top: 0.5rem;}
     footer .footerLinks a:hover {
       color: #e0607e; }
@@ -185,7 +185,7 @@ footer {
     footer .socketBkg p {
       padding: 1% 0%; }
   footer h2 {
-    color: #c2714f; }
+    color: black; }
 footer .partenaire ul li{
   margin-top: 1rem;
 }
