@@ -117,12 +117,26 @@ body {
   min-height: 200px; }
 
 .movie {
-  background: #f8d480 url("../images/04-Image.jpg") no-repeat bottom;
-  background-size: 100% auto;
+  background-color: #f8d480; 
+  background-image: none; 
   height: auto;
-  min-height: 200px; }
-  .movie .row {
-    padding: 3% 2%; }
+  min-height: 200px;
+  padding: 40px 0; /* Ajoute un peu d'espace en haut et en bas */
+}
+
+/* Règle CSS qui sert à créer de l'espace à l'intérieur du bloc contenant les affiches de films pour éviter que le contenu ne soit "collé" aux bords.*/
+.movie .row {
+  padding: 3% 2%;
+}
+
+/* Style des affiches */
+.movie img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px; /* Coins légèrement arrondis */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Ombre pour faire ressortir l'affiche */
+  margin-bottom: 15px;
+}
 
 .booking aside {
   background: url("../images/parc_monceau_1.jpg") no-repeat center;
