@@ -4,11 +4,11 @@ body, html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #dbd3ad;
+  color: #1f2c34;
   position: relative; }
   body h1, body h2 {
     text-transform: uppercase;
-    color: #dbd3ad;
+    color: #1f2c34;
     font-family: "Monserrat", sans-serif;
     font-weight: 700;
     border-left: 5px solid #e96b55;
