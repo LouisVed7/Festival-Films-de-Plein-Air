@@ -125,7 +125,7 @@ body {
     padding: 3% 2%; }
 
 .booking aside {
-  background: url("../images/parc_monceau_1.jpg") no-repeat center alt="Photo du festival au parc Monceau";
+  background: url("../images/parc_monceau_1.jpg") no-repeat center;
   background-size: 100% auto;
   height: auto;
   min-height: 200px; }
