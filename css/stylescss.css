@@ -77,6 +77,35 @@ body {
   .maNav .navbar-nav a.nav-link.active {
     color: #e0607e; }
 
+/* Sélecteur de langue */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  padding: 10px 0; /* Espacement sur mobile */
+}
+
+.lang-switcher img {
+  width: 24px; /* Taille légèrement augmentée pour la lisibilité */
+  height: auto;
+  margin-left: 10px;
+  border-radius: 3px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.lang-switcher img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+/* Ajustement pour les écrans d'ordinateurs */
+@media (min-width: 992px) {
+  .lang-switcher {
+    padding: 0;
+    margin-left: 20px; /* Espace après le lien Contact */
+  }
+}
+
 .welcome aside {
   background: url("../images/01-Image.jpg") no-repeat bottom;
   background-size: 100% auto;
