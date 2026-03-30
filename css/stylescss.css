@@ -15,15 +15,15 @@ body {
     padding-left: 5%;
     margin-bottom: 3%; }
   body a {
-    color: #e96b55; }
+    color: black; }
     body a:hover {
-      color: #5eab99;
+      color: #e0607e;
       text-decoration: none; }
   body .btn-custom {
     background: transparent;
-    border: 2px solid #e96b55;
+    border: 2px solid black;
     border-radius: 25px;
-    color: #e96b55;
+    color: black;
     font-weight: 600;
     text-transform: uppercase; }
     body .btn-custom:hover {
@@ -204,7 +204,7 @@ footer .partenaire ul li{
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif; }
   .container-fluid.filmlist .note {
-    color: #e96b55;
+    color: black;
     margin: 3% 0%; }
   .container-fluid.filmlist span {
     color: lightgrey;
