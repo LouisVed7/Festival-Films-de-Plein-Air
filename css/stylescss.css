@@ -4,11 +4,11 @@ body, html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #1f2c34;
+  color: black;
   position: relative; }
   body h1, body h2 {
     text-transform: uppercase;
-    color: #1f2c34;
+    color: black;
     font-family: "Monserrat", sans-serif;
     font-weight: 700;
     border-left: 5px solid #e96b55;
@@ -283,7 +283,7 @@ footer .partenaire ul li{
   min-height: 200px; }
 
 .infoBlog {
-  color: #c2714f;
+  color: black;
   font-size: x-small; }
 
 .card-title {
