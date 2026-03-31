@@ -77,33 +77,32 @@ body {
   .maNav .navbar-nav a.nav-link.active {
     color: #e0607e; }
 
-/* Sélecteur de langue */
-.lang-switcher {
-  display: flex;
-  align-items: center;
-  padding: 10px 0; /* Espacement sur mobile */
+/* Menu Déroulant Langue */
+.maNav .dropdown-menu {
+    background-color: #dbd3ad; /* Même couleur que la barre nav */
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.lang-switcher img {
-  width: 24px; /* Taille légèrement augmentée pour la lisibilité */
-  height: auto;
-  margin-left: 10px;
-  border-radius: 3px;
-  transition: transform 0.2s ease;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+.maNav .dropdown-item {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: black !important;
 }
 
-.lang-switcher img:hover {
-  transform: scale(1.1);
-  filter: brightness(1.1);
+.maNav .dropdown-item:hover {
+    background-color: #e0607e;
+    color: white !important;
 }
 
-/* Ajustement pour les écrans d'ordinateurs */
-@media (min-width: 992px) {
-  .lang-switcher {
-    padding: 0;
-    margin-left: 20px; /* Espace après le lien Contact */
-  }
+/* Taille unique pour tous les drapeaux (même si originaux différents) */
+.flag-icon, .current-flag {
+    width: 20px !important;
+    height: 14px !important;
+    object-fit: cover; /* Coupe l'image pour qu'elle remplisse le rectangle sans se déformer */
+    margin-right: 8px;
+    border-radius: 2px;
 }
 
 .welcome aside {
@@ -158,13 +157,22 @@ body {
   padding: 3% 2%;
 }
 
-/* Style des affiches */
+/* Style des affiches avec animation */
 .movie img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px; /* Coins légèrement arrondis */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Ombre pour faire ressortir l'affiche */
-  margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    /* Animation */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.movie img:hover {
+    transform: scale(1.05); /* Zoom léger */
+    filter: brightness(1.1); /* Plus lumineux */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Ombre plus portée */
+    cursor: pointer;
 }
 
 .booking aside {
@@ -342,5 +350,3 @@ footer .partenaire ul li{
     position: absolute; }
 .article .infoBlog {
   font-size: 1rem; }
-
-/*# sourceMappingURL=stylescss.css.map */
