@@ -259,7 +259,7 @@ footer .partenaire ul li{
 }
 .jumbotron {
   background: #c2714f; }
-  .jumbotron h2 {
+  .jumbotron span {
     color: white;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -269,7 +269,7 @@ footer .partenaire ul li{
 
 .container-fluid.filmlist {
   padding-top: 3%; }
-  .container-fluid.filmlist h4 {
+  .container-fluid.filmlist h3 {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif; }
   .container-fluid.filmlist .note {
