@@ -161,15 +161,21 @@ body {
 /* Règle CSS qui sert à créer de l'espace à l'intérieur du bloc contenant les affiches de films pour éviter que le contenu ne soit "collé" aux bords.*/
 .movie .row {
   padding: 3% 2%;
+  display: flex;
+  flex-wrap: wrap; /* Permet aux images de passer à la ligne sur mobile */
+  justify-content: center; /* Centre les affiches horizontalement */
+  gap: 15px; /* Crée un espace régulier entre chaque affiche */
+}
 }
 
 /* Style des affiches avec animation */
 .movie img {
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     /* Animation */
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -181,11 +187,17 @@ body {
     cursor: pointer;
 }
 
+.booking {
+    padding: 60px 0;
+    background-color: #dbd3ad;
+}
+
 .booking aside {
   background: url("../images/parc_monceau_1.jpg") no-repeat center;
-  background-size: 100% auto;
-  height: auto;
-  min-height: 200px; }
+  background-size: cover;
+  height: 100%;
+  min-height: 500px;
+  border-radius: 8px;}
 
 .form-group {
   position: relative; }
