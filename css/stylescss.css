@@ -72,11 +72,6 @@ body {
     background-color: #f0f193;
     /* Add a dark-grey background on hover */ }
 
-.container-fluid {
-    width: 100%;
-    clear: both;
-    display: block;
-}
 .maNav {
   background: #dbd3ad; }
   .maNav .navbar-nav a.nav-link {
