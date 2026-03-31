@@ -2,41 +2,56 @@
 <html lang="fr">
 <head>
 	<title>Actualités | 5ème Édition du Festival de Films en Plein Air</title>
-		
+	
+		<!--Metatags-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="author" content="Anaïs Petit, Louis Vedovati">
+		<meta name="author" content="Anaïs Petit, Louis Vedovati">
 		<meta name="description" content="Découvrez la programmation de la 5ème édition du Festival de Films en Plein Air 2026 au Parc Monceau. Thème : Le Voyage.">
-			
+
+		<!--Open graph data-->
 		<meta property="og:title" content="Festival de Films en Plein Air - Actualités">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://louisved7.github.io/Festival-Films-de-Plein-Air/#">
 		<meta property="og:image" content="images/LOGO-seo.jpg">
 		<meta property="og:description" content="Cinéma gratuit sous les étoiles au Parc Monceau. Consultez le programme !">
 
-		<link rel="icon" type="image/png" sizes="32x32" href="images/LOGO-seo.jpg">
+		<!-- Favicon standard -->
+        <link rel="icon" type="image/png" sizes="32x32" href="images/LOGO-seo.jpg">
+        <!-- Solution de repli pour anciens navigateurs -->
         <link rel="shortcut icon" href="images/LOGO-seo.jpg" type="image/x-icon">
+        <!-- Apple Touch Icon -->
         <link rel="apple-touch-icon" sizes="180x180" href="images/LOGO-seo.jpg">
-
+	
+		<!-- notranslate -->
+		<!-- "Lorsque Google voit que le contenu d'une page n'est pas dans la langue dans laquelle l'internaute est susceptible de vouloir la lire, Google peut fournir un extrait traduits dans les résultats de recherche"  -->
 		<meta name="googlebot" content="translate">
+        
+		<!-- robots et googlebot -->
+		<!-- "Ces balises meta permettent de contrôler l'exploration et l'indexation effectuées par les moteurs de recherche" -->
         <meta name="robots" content="index,follow">
 		<meta name="googlebot" content="index,follow">
 
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/stylescss.css">
-	<link rel="stylesheet" href="webfonts/all.css">
+		<!--fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700" rel="stylesheet">
+		<!--CSS-->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!--<link rel="stylesheet" href="css/style.css">-->
+		<link rel="stylesheet" href="css/stylescss.css">
+		<link rel="stylesheet"  href="webfonts/all.css">
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SZL7CLJL7"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+ 			 gtag('js', new Date());
 
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SZL7CLJL7"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-7SZL7CLJL7');
-	</script>
+  			gtag('config', 'G-7SZL7CLJL7');
+		</script>
 </head>
 <body>
-
+	<!--00.header-->
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark maNav">
 		<a class="navbar-brand" href="index.html">
 			<img src="images/LOGO-seo.jpg" width="100" alt="logo festival">
@@ -46,113 +61,113 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav ml-auto">
-    			<a class="nav-item nav-link" href="index.html">accueil</a>
-    			<a class="nav-item nav-link" href="films.html">Les Films</a>
-    			<a class="nav-item nav-link" href="index.html#booking">Réservation</a>
-    			<a href="blog.html" class="active nav-item nav-link navLink">Actualités</a>
-    			<a class="nav-item nav-link" href="contact.html">Contact</a>
+			<a class="nav-item nav-link " href="index.html">accueil <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="films.html">Les Films</a>
+			<a class="nav-item nav-link" href="index.html#booking">Réservation</a>
+			<a href="blog.html" class="active nav-item nav-link navLink">Actualités</a>
+			<a class="nav-item nav-link" href="contact.html">Contact</a>
 				
-    			<div class="nav-item dropdown ml-lg-3">
-                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="langDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       <img src="https://flagcdn.com/w20/fr.png" alt="FR" class="current-flag"> FR
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
-                         <a class="dropdown-item d-flex align-items-center" href="?lang=fr">
-                           <img src="https://flagcdn.com/w20/fr.png" alt="Français" class="flag-icon"> Français
-                         </a>
-                         <a class="dropdown-item d-flex align-items-center" href="?lang=en">
-                           <img src="https://flagcdn.com/w20/gb.png" alt="English" class="flag-icon"> English
-                         </a>
-                    </div>
-                </div>
+			<div class="nav-item dropdown ml-lg-3">
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="langDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <img src="https://flagcdn.com/w20/fr.png" alt="FR" class="current-flag"> FR
+                </a>
+                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
+                     <a class="dropdown-item d-flex align-items-center" href="?lang=fr">
+                       <img src="https://flagcdn.com/w20/fr.png" alt="Français" class="flag-icon"> Français
+                     </a>
+                     <a class="dropdown-item d-flex align-items-center" href="?lang=en">
+                       <img src="https://flagcdn.com/w20/gb.png" alt="English" class="flag-icon"> English
+                     </a>
+                   </div>
+            </div>
+			</div>
+			</div>
+		</nav>
+	<!--end header-->
+	<!--Article-->
+    	<div class="container-fluid">
+       	 	<div class="container article p-5">
+				<div class="row">
+                <h1>5e Édition : Le Cinéma comme une invitation au Voyage</h1>
+                <p>Par Jennifer Vialet | Focus sur la programmation du Parc Monceau</p>
+				</div>
+			<div class="row">
+			<article>
+                <p>Pour souffler ses cinq bougies, le <strong>Festival de Films en Plein Air</strong> nous emmène loin. Sous le thème universel du <strong>« Voyage »</strong>, cette édition 2026 célèbre l'aventure, la découverte de l'autre et la quête de soi.</p>
+				<h2>Mercredi 5 août</h2>
+				<h4>Soirée centrée sur l'émerveillement et l'aventure</h4>
+				<p>Le voyage commence par l'émerveillement. Avec Azur et Asmar de Michel Ocelot, nous plongeons dans un Maghreb médiéval onirique où les couleurs vibrent à chaque plan. La soirée se poursuit avec l'énergie débordante de Steven Spielberg, avant de se clôturer en apothéose avec le mythique Voyage dans la Lune de Méliès, rappelant que le cinéma est, depuis ses origines, la plus belle des machines à voyager.</p>
+				<h2>Jeudi 6 août</h2>
+				<h4>Le voyage intérieur, une soirée sur la quête de soi</h4>
+				<p>Le voyage est aussi intérieur. Cette escale nous transporte à travers l'Europe sur les traces de Primo Levi et nous émeut avec le périple improbable d'Alvin Straight dans Une histoire vraie de David Lynch. Ici, ce n'est plus la destination qui compte, mais le temps que l'on s'accorde pour se souvenir et se retrouver. Entre la poésie muette de L'Illusionniste et la marche méditative de Tsai Ming-liang, cette soirée invite à la contemplation.</p>
+				<h2>Vendredi 7 août : Traversée Fantastique</h2>
+				<h4>Place au fantastique</h4>
+				<p>Pour la clôture, nous explorons le voyage temporel et les réalités alternatives. Le chef-d'œuvre Arco d'Ugo Bienvenu nous projette en 2075, explorant un futur visuellement fascinant, suivi de l'humour acidulé de Wes Anderson dans À bord du Darjeeling Limited. La soirée s'achèvera sur les rives de l'expérimentation avec La Jetée, pour un ultime saut dans les couloirs du temps.</p>
+				</div>
 			</div>
 		</div>
-	</nav>
-
-	<div class="container-fluid bg-light py-5">
-        <div class="container article p-5 bg-white shadow-sm">
-            <header class="mb-5 text-center">
-                <div class="badge badge-warning mb-2 p-2 text-uppercase" style="background-color: #c2714f; color: white;">Événement 2026</div>
-                <h1 class="display-4 font-weight-bold">5e Édition : Le Cinéma comme une invitation au Voyage</h1>
-                <p class="text-muted font-italic">Par Jennifer Vialet | Focus sur la programmation du Parc Monceau</p>
-                <hr class="my-4 w-25 mx-auto" style="border-top: 3px solid #a37a5c;">
-            </header>
-
-            <section class="lead mb-5 text-justify">
-                <p>Pour souffler ses cinq bougies, le <strong>Festival de Films en Plein Air</strong> nous emmène loin. Sous le thème universel du <strong>« Voyage »</strong>, cette édition 2026 célèbre l'aventure, la découverte de l'autre et la quête de soi.</p>
-            </section>
-
-            <div class="row mb-5 align-items-center">
-				<div class="programmation-texte mt-4">
-					<div class="row mb-5">
-						<div class="col-12">
-							<h2>Mercredi 5 août</h2>
-							<h4>Soirée centrée sur l'émerveillement et l'aventure</h4>
-							<p>Le voyage commence par l'émerveillement. Avec Azur et Asmar de Michel Ocelot, nous plongeons dans un Maghreb médiéval onirique où les couleurs vibrent à chaque plan. La soirée se poursuit avec l'énergie débordante de Steven Spielberg, avant de se clôturer en apothéose avec le mythique Voyage dans la Lune de Méliès, rappelant que le cinéma est, depuis ses origines, la plus belle des machines à voyager.</p>
-							<h2>Jeudi 6 août</h2>
-							<h4>Le voyage intérieur, une soirée sur la quête de soi</h4>
-							<p>Le voyage est aussi intérieur. Cette escale nous transporte à travers l'Europe sur les traces de Primo Levi et nous émeut avec le périple improbable d'Alvin Straight dans Une histoire vraie de David Lynch. Ici, ce n'est plus la destination qui compte, mais le temps que l'on s'accorde pour se souvenir et se retrouver. Entre la poésie muette de L'Illusionniste et la marche méditative de Tsai Ming-liang, cette soirée invite à la contemplation.</p>
-							<h2>Vendredi 7 août : Traversée Fantastique</h2>
-							<h4>Place au fantastique</h4>
-							<p>Pour la clôture, nous explorons le voyage temporel et les réalités alternatives. Le chef-d'œuvre Arco d'Ugo Bienvenu nous projette en 2075, explorant un futur visuellement fascinant, suivi de l'humour acidulé de Wes Anderson dans À bord du Darjeeling Limited. La soirée s'achèvera sur les rives de l'expérimentation avec La Jetée, pour un ultime saut dans les couloirs du temps.</p>
-							</div>
-						</div>
-					</div>
-				</div>
+	</div>
 			
-    <footer class="container-fluid footer">
-        <div class="container py-3">
-            <div class="row">
-                <div class="col-12 col-md-3">
-                    <h2>Liens utiles</h2>
-                    <div class="footerLinks">
-                        <a href="index.html">Accueil</a>
-                        <a href="films.html">Les Films</a>
-                        <a href="blog.html">Actualités</a>
-                        <a href="contact.html">Contact</a>
-                        <a href="mentions-legales.html">Mentions légales</a>
+   <!--07.footer-->
+		<footer class="container-fluid footer">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <h2>Liens utiles</h2>
+                        <div class="footerLinks">
+                            <a href="index.html">Accueil</a>
+                            <a href="films.html">Les Films</a>
+                            <a href="blog.html">Actualités</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="mentions-legales.html">Mentions légales</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3 address">
-                    <h2>Contactez-nous</h2>
-                    <div class="contactIcons mb-3">
-                        <p><span class="pr-3"><i class="fas fa-home"></i></span>Parc Monceau, 35 Boulevard de Courcelles, 75008 Paris</p>
-                        <p><span class="pr-3"><i class="fas fa-envelope"></i></span>jennifer.vialet@festivalfilmspleinair.com</p>
+                    <div class="col-12 col-md-3 address">
+                        <h2>Contactez-nous</h2>
+                        <div class="contactIcons mb-3">
+                            <p><span class="pr-3"><i class="fas fa-home"></i></span><a href="https://maps.app.goo.gl/Rjj6Js3p1iFbQkmi7" target="_blank">Parc Monceau, 35 Boulevard de Courcelles, 75008 Paris France</a></p>
+                            <p><span class="pr-3"><i class="fas fa-envelope"></i></span>jennifer.vialet@festivalfilmspleinair.com</p>
+                            <p><span class="pr-3"><i class="fas fa-phone"></i></span>06.00.00.00.00</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3 partenaire">
-                    <h2>Partenariat</h2>
-                    <div class="contactIcons mb-3">
-                        <ul>
-                            <li><a href="https://www.paris.fr/" target="_blank">Mairie de Paris</a></li>
-                            <li><a href="https://www.iledefrance.fr/" target="_blank">Région Ile-de-France</a></li>
-                            <li><a href="https://www.france.tv/" target="_blank">France Télévision</a></li>
-                        </ul>
+                    <div class="col-12 col-md-3 partenaire">
+                        <h2>Partenariat</h2>
+                        <div class="contactIcons mb-3">
+                            <ul>
+                                <li><a href="https://www.paris.fr/" target="_blank">Mairie de Paris</a></li>
+                                <li><a href="https://www.iledefrance.fr/" target="_blank">Région Ile-de-France</a></li>
+                                <li><a href="https://www.france.tv/" target="_blank">France Télévision</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3 social">
-                    <h2>Suivez-nous !</h2>
-                    <div class="socialicons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="col-12 col-md-3 social">
+                        <h2>Suivez-nous !</h2>
+                        <div class="socialicons">
+                            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
-                </div>
-            </div>	
-        </div>
-        <div class="socketBkg ">
-            <div class="socket text-center">
-                <p>Copyright - Site réalisé par <br>
-                    Université Côte d'Azur - <a href="https://univ-cotedazur.fr/" target="_blank">Univ-Côte d'Azur</a></p>
+                </div>	
             </div>
-        </div>
-    </footer>
+            <div class="socketBkg ">
+                <div class="socket text-center">
+                    <p>Copyright - Site réalisé par <br>
+                        Université Côte d'Azur - <a href="https://univ-cotedazur.fr/" target="_blank">Univ-Côte d'Azur</a></p>
+                </div>
+            </div>
+		</footer>
+	<!--end footer-->
 
+	<!--Scroll to top button-->
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+	<!--End Scroll to top button-->
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>	
 </body>
 </html>
