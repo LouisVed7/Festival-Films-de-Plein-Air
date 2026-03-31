@@ -190,6 +190,9 @@ body {
 .form-group {
   position: relative; }
 
+.contactPage {
+    flex: 1; /* Pousse le footer vers le bas */ }
+
 .contactPage .col-sm-12 .cardForm {
   margin-bottom: 3%; }
 
