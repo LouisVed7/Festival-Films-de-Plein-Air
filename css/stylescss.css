@@ -366,7 +366,31 @@ footer .partenaire ul li{
 @media (max-width: 768px) { /*mobile*/
 body h1, body h2 {
   font-size: 1.4rem;
-@@ -393,3 +394,41 @@
+  margin-top: 20px; }
+
+.contactPage .cardForm {
+  margin-bottom: 30px; }
+
+.address .banContact {
+  height: 150px; } /* Hauteur */
+
+.address .banContact img {
+  top: 0; /* Centrer l'image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.btn-custom { /*Centrer le bouton*/
+  width: 100%;
+  display: block; }
+}
+
+@media (max-width: 576px) { /* Très petits écrans (iPhone SE, etc.) */
+.container {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.lang-switcher { /* Empiler les drapeaux verticalement dans le menu */
   justify-content: center;
   margin-top: 10px; }
 }
