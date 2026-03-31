@@ -251,16 +251,17 @@ footer .partenaire ul li{
 }
 .jumbotron {
   background: #c2714f; }
-  .jumbotron span {
+  .jumbotron h2 {
     color: white;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-size: xx-large;
-    font-weight: 700; }
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 0; }
 
 .container-fluid.filmlist {
   padding-top: 3%; }
-  .container-fluid.filmlist h3 {
+  .container-fluid.filmlist h4 {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif; }
   .container-fluid.filmlist .note {
@@ -399,7 +400,7 @@ body h1, body h2 {
 @media (min-width: 992px) {
 /* On limite la largeur du bloc image pour qu'il ne soit pas trop grand */
 .filmlist .col-sm-4 {
-  max-width: 300px; }
+  max-width: 320px; }
 
 /* On force l'image de fond à couvrir tout le bloc sans dépasser la hauteur du texte */
 .filmlist aside {
