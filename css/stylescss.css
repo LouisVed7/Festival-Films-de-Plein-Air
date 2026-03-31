@@ -6,8 +6,7 @@ body, html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: black;
-  position: relative; 
+  color: black; 
   display: flex;
   flex-direction: column;
   min-height: 100vh; 
@@ -72,6 +71,11 @@ body {
     background-color: #f0f193;
     /* Add a dark-grey background on hover */ }
 
+.container-fluid {
+    width: 100%;
+    clear: both;
+    display: block;
+}
 .maNav {
   background: #dbd3ad; }
   .maNav .navbar-nav a.nav-link {
@@ -188,16 +192,21 @@ body {
 }
 
 .booking {
-    padding: 60px 0;
-    background-color: #dbd3ad;
-}
+    padding: 80px 0;
+    min-height: 600px;
+    background-color: #dbd3ad; }
 
 .booking aside {
   background: url("../images/parc_monceau_1.jpg") no-repeat center;
   background-size: cover;
   height: 100%;
   min-height: 500px;
-  border-radius: 8px;}
+  border-radius: 8px; }
+
+.booking .row {
+    margin: 0;
+    display: flex;
+    align-items: center; }
 
 .form-group {
   position: relative; }
