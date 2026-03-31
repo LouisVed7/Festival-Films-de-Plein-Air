@@ -362,6 +362,7 @@ footer .partenaire ul li{
 
 /* Ajustements Responsive */
 
+/* Page contact */
 @media (max-width: 768px) { /*mobile*/
 body h1, body h2 {
   font-size: 1.4rem;
@@ -392,4 +393,42 @@ body h1, body h2 {
 .lang-switcher { /* Empiler les drapeaux verticalement dans le menu */
   justify-content: center;
   margin-top: 10px; }
+}
+
+/* Page Films */
+@media (min-width: 992px) {
+/* On limite la largeur du bloc image pour qu'il ne soit pas trop grand */
+.filmlist .col-sm-4 {
+  max-width: 300px; }
+
+/* On force l'image de fond à couvrir tout le bloc sans dépasser la hauteur du texte */
+.filmlist aside {
+  height: auto;
+  min-height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 20px 0; }
+}
+
+@media (max-width: 767px) {
+.filmlist aside {
+  height: 250px; /* Hauteur fixe sur mobile pour ne pas prendre tout l'écran */
+  min-height: 250px;
+  background-size: cover !important;
+  margin-bottom: 20px; }
+    
+.filmlist .row {
+  margin-bottom: 50px; /* Espace entre chaque film */
+  border-bottom: 1px solid #dbd3ad; /* Ligne de séparation légère */
+  padding-bottom: 30px; }
+
+/* On s'assure que l'ordre est logique : Image puis Texte */
+.filmlist .order-first {
+  order: -1 !important; }
+    
+/* On ajuste les boutons sur mobile */
+.filmlist .btn-custom {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px; }
 }
