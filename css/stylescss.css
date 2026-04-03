@@ -361,6 +361,53 @@ footer .partenaire ul li{
 
 /* Ajustements Responsive */
 
+/*Page index */
+@media (max-width: 767.98px) {
+    
+.about aside, .news aside, .booking aside, .welcome aside {
+  min-height: 250px !important; /* Hauteur minimum pour voir l'image */
+  background-size: cover !important; /* L'image remplit tout l'espace sans se déformer */
+  background-position: center !important;
+  margin-bottom: 20px;
+  width: 100%; }
+
+/* Image au dessus, texte en dessous */
+.row {
+  display: flex;
+  flex-direction: column; }
+    
+.order-lg-2 {
+  order: -1 !important; /* Force l'image à passer en premier en haut */ }
+
+/* Les textes ne touchent pas les bords de l'écran */
+article {
+  padding: 20px 15px !important;
+  text-align: center; }
+
+body h1, body h2 {
+  font-size: 1.6rem;
+  border-left: 8px solid #c2714f;
+  margin-top: 10px; }
+
+.btn-custom {
+  display: block;
+  width: 100%;
+  margin-top: 15px; }
+
+/* 2 films par ligne au lieu de 1 seul */
+.movie .col-sm-4, .movie .col-12 {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  padding: 10px !important; }
+
+.movie img {
+  margin-bottom: 10px; }
+
+/* Fix bannière d'accueil */
+.welcome aside {
+  min-height: 180px !important; }
+}
+
 /* Page contact */
 @media (max-width: 768px) { /*mobile*/
 body h1, body h2 {
