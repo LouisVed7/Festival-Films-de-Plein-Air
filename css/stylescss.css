@@ -259,10 +259,6 @@ footer .partenaire ul li{
     font-size: xx-large;
     font-weight: 700; }
 
-.filmlist {
-    margin-top: 30px; /* Création d'un espace entre le bloc et le film */
-}
-
 .container-fluid.filmlist {
   padding-top: 3%; }
   .container-fluid.filmlist h3 {
@@ -519,8 +515,7 @@ body h1, body h2 {
 .filmlist .btn-custom {
   display: block;
   width: 100%;
-  margin: 10px 0;
-  border-radius: 0 !important; }
+  margin: 10px 0; }
 
 .jumbotron {
   margin-top: 0 !important;
