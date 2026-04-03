@@ -470,16 +470,16 @@ body h1, body h2 {
 @media (max-width: 767px) {
 .filmlist aside {
   order: -1 !important; 
-  width: 65% !important;
-  max-width: 280px !important;
+  width: 70% !important;
+  max-width: 290px !important;
   height: auto !important;
   aspect-ratio: 2 / 3 !important;
   background-size: contain !important;
   background-repeat: no-repeat;
   background-position: center !important;
   margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 1°px rgba(0,0,0,0,2); }
+  border-radius: 0 !important;
+  box-shadow: none !important; }
     
 .filmlist .row {
   display: flex !important;
@@ -519,13 +519,17 @@ body h1, body h2 {
 .filmlist .btn-custom {
   display: block;
   width: 100%;
-  margin: 10px 0; }
+  margin: 10px 0;
+  border-radius: 0 !important; }
 
 .jumbotron {
-  padding: 30px 15px !important;
-  margin-bottom: 20px !important; }
+  margin-top: 0 !important;
+  padding: 40px 15px !important;
+  margin-bottom: 20px !important;
+  border-radius: 0 !important; }
 
 .jumbotron span {
   font-size: 1.1rem !important;
-  line-height: 1.4; }
+  line-height: 1.4;
+  display: block; }
 }
