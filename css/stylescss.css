@@ -381,8 +381,7 @@ footer .partenaire ul li{
 
 /* Les textes ne touchent pas les bords de l'écran */
 article {
-  padding: 20px 15px !important;
-  text-align: center; }
+  padding: 20px 15px !important; }
 
 body h1, body h2 {
   font-size: 1.6rem;
@@ -396,9 +395,9 @@ body h1, body h2 {
 
 /* 2 films par ligne au lieu de 1 seul */
 .movie .col-sm-4, .movie .col-12 {
-  flex: 0 0 50% !important;
-  max-width: 50% !important;
-  padding: 10px !important; }
+  flex: 0 0 25% !important;
+  max-width: 25% !important;
+  padding: 5px !important; }
 
 .movie img {
   margin-bottom: 10px; }
