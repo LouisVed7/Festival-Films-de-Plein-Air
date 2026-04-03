@@ -249,13 +249,19 @@ footer .partenaire ul li{
   margin-top: 1rem;
 }
 .jumbotron {
-  background: #c2714f; }
+  background: #c2714f;
+  margin-top: 20px;
+  padding: 2rem 1rem; }
   .jumbotron span {
     color: white;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
     font-weight: 700; }
+
+.filmlist {
+    margin-top: 30px; /* Création d'un espace entre le bloc et le film */
+}
 
 .container-fluid.filmlist {
   padding-top: 3%; }
@@ -487,6 +493,9 @@ body h1, body h2 {
   font-size: 1.5rem !important;
   padding-left: 0 !important; }
 
+.filmlist .container {
+  padding-top: 10px; }
+  
 .filmlist .note {
   justify-content: center;
   display: flex;
@@ -502,6 +511,12 @@ body h1, body h2 {
   width: 100%;
   margin: 10px 0; }
 
+.jumbotron {
+  padding: 30px 15px !important;
+  margin-bottom: 20px !important; }
+
 .jumbotron span {
-  font-size: 1.2rem !important; }
+  font-size: 1.1rem !important;
+  line-height: 1.4;
+  display: block; }
 }
