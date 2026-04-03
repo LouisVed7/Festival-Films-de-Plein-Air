@@ -394,12 +394,14 @@ body h1, body h2 {
   margin-top: 15px; }
   
 .movie .row {
-  padding: 10px 5px !important; /* Moins de vide sur les côtés */
-  margin-left: -5px;
-  margin-right: -5px; }
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important; }
   
 /* 3 films par ligne au lieu de 1 seul */
 .movie .col-4 {
+  flex: 0 0 33.3333% !important; /* On force la largeur à 1/3 de l'écran */
+  max-width: 33.3333% !important;
   padding-left: 5px !important;
   padding-right: 5px !important; }
 
