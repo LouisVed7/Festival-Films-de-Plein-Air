@@ -590,18 +590,36 @@ body h1, body h2 {
 /* Sur mobile */
 @media (max-width: 767.98px) {
 
+body, html {
+  overflow-x: hidden;
+  width: 100%; }
+  
 section .container.p-5 {
-  padding: 30px 15px !important; }
+  padding: 20px 10px !important; }
+
+section.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
+  overflow: hidden; }
 
 .card {
-  width: 100% !important;
-  margin-left: 10px !important;
-  margin-right: 10px !important; }
-    
+  width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100%;
+  display: block;
+  float: none; }
+
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+
 section h2 {
-  width: 100%;
-  margin-left: 5px;
-  margin-bottom: 30px; }  }
+  width: auto;
+  margin-left: 15px !important;
+  margin-bottom: 30px;
+  display: block; }  }
 
 /* Sur tablette (2 colonnes) */
 @media (min-width: 768px) and (max-width: 991.98px) {
