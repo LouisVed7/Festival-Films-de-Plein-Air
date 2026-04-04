@@ -564,7 +564,6 @@ body h1, body h2 {
   font-size: 0.9rem; }  }
 
 /* Page Blog */
-
 .card {
   border: none;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -596,12 +595,12 @@ section .container.p-5 {
 
 .card {
   width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important; }
+  margin-left: 10px !important;
+  margin-right: 10px !important; }
     
 section h2 {
-  text-align: center;
   width: 100%;
+  margin-left: 5px;
   margin-bottom: 30px; }  }
 
 /* Sur tablette (2 colonnes) */
