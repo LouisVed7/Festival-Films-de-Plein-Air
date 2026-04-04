@@ -628,19 +628,3 @@ section h2 {
   flex: 0 0 45% !important;
   max-width: 45% !important; }  }
 }
-
-/* Correction du menu mobile (Burger ouvert) */
-@media (max-width: 991.98px) {
-    .maNav .navbar-collapse {
-        background-color: #dbd3ad; /* Utilise la même couleur beige que ton header */
-        padding: 20px;             /* Ajoute un peu d'espace pour que les liens ne collent pas aux bords */
-        border-radius: 0 0 10px 10px; /* Optionnel : arrondit légèrement le bas du menu */
-        margin-top: 10px;          /* Espace entre le logo et le début de la liste */
-    }
-
-    /* Optionnel : ajoute une petite bordure en haut pour séparer du logo */
-    .maNav .navbar-nav {
-        border-top: 1px solid rgba(0,0,0,0.1);
-        padding-top: 10px;
-    }
-}
