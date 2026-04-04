@@ -410,8 +410,7 @@ body h1, body h2 {
 
 /* Fix bannière d'accueil */
 .welcome aside {
-  min-height: 180px !important; }
-}
+  min-height: 180px !important; } }
 
 /* Page contact */
 @media (max-width: 768px) { /*mobile*/
@@ -433,8 +432,7 @@ body h1, body h2 {
 
 .btn-custom { /*Centrer le bouton*/
   width: 100%;
-  display: block; }
-}
+  display: block; } }
 
 @media (max-width: 576px) { /* Très petits écrans (iPhone SE, etc.) */
 .container {
@@ -443,8 +441,7 @@ body h1, body h2 {
 
 .lang-switcher { /* Empiler les drapeaux verticalement dans le menu */
   justify-content: center;
-  margin-top: 10px; }
-}
+  margin-top: 10px; } }
 
 /* Page Films */
 @media (min-width: 992px) {
@@ -458,8 +455,7 @@ body h1, body h2 {
   min-height: 400px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  margin: 20px 0; }
-}
+  margin: 20px 0; } }
 
 @media (max-width: 767px) {
 .filmlist aside {
@@ -524,7 +520,7 @@ body h1, body h2 {
 .jumbotron span {
   font-size: 1.1rem !important;
   line-height: 1.4;
-  display: block; }
+  display: block; }  }
 
 /* Format Tablette (entre 768px et 991px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -565,5 +561,53 @@ body h1, body h2 {
   width: auto;
   margin-right: 10px;
   padding: 10px 20px;
-  font-size: 0.9rem; }
+  font-size: 0.9rem; }  }
+
+/* Page Blog */
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  margin-bottom: 30px !important; /* Espace vertical entre les cartes */ }
+
+.card:hover {
+  transform: translateY(-5px); }
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover; /* Évite que les images soient déformées */ }
+
+.card-title {
+  font-size: 1.2rem;
+  color: #c2714f; }
+
+.infoBlog {
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 10px; }
+
+/* Sur mobile */
+@media (max-width: 767.98px) {
+
+section .container.p-5 {
+  padding: 30px 15px !important; }
+
+.card {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+    
+section h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px; }  }
+
+/* Sur tablette (2 colonnes) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.card {
+  flex: 0 0 45% !important;
+  max-width: 45% !important; }  }
 }
