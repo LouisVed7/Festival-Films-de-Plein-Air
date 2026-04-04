@@ -525,4 +525,45 @@ body h1, body h2 {
   font-size: 1.1rem !important;
   line-height: 1.4;
   display: block; }
+
+/* Format Tablette (entre 768px et 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.filmlist .container {
+  max-width: 100%; /* Utilise toute la largeur disponible */
+  padding: 0 30px; }
+
+.filmlist .row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  margin-bottom: 60px; }
+
+.filmlist aside {
+  flex: 0 0 40% !important;
+  max-width: 40% !important;
+  min-height: 350px !important;
+  height: auto !important;
+  background-size: contain !important;
+  background-position: top center !important;
+  background-repeat: no-repeat;
+  margin-bottom: 0; }
+
+.filmlist article {
+  flex: 0 0 60% !important;
+  max-width: 60% !important;
+  padding-left: 40px !important;
+  text-align: left !important; }
+
+.filmlist h2 {
+  font-size: 1.8rem !important;
+  margin-top: 0; }
+
+/* On aligne les boutons à gauche sur tablette */
+.filmlist .btn-custom {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 0.9rem; }
 }
