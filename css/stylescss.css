@@ -98,7 +98,7 @@ body {
 
 .maNav .dropdown-item:hover {
     background-color: #e0607e;
-    color: white !important;
+    color: black !important;
 }
 
 /* Taille unique pour tous les drapeaux (même si originaux différents) */
