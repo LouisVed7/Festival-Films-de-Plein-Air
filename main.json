@@ -1,0 +1,27 @@
+/* Gestion du bouton Retour en Haut */
+
+// 1. On récupère le bouton via son ID
+var mybutton = document.getElementById("myBtn");
+
+// 2. On écoute l'événement de défilement (scroll) sur la page
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    // Si on a défilé de plus de 20px vers le bas (compatible tous navigateurs)
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block"; // On affiche le bouton
+    } else {
+        mybutton.style.display = "none";  // On cache le bouton
+    }
+}
+
+// 3. Fonction appelée lors du clic sur le bouton (onclick="topFunction()")
+function topFunction() {
+    // Remonte tout en haut avec un effet fluide
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
